@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.4
+    runs-on: ubuntu
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
